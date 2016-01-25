@@ -1,3 +1,12 @@
+*.pyc
+*.log
+/.idea
+/.coverage
+/anime-tools.egg-info
+/build
+/dist
+/wheelhouse
+
 # Windows image file caches
 Thumbs.db
 ehthumbs.db
