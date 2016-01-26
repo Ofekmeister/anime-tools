@@ -1,3 +1,6 @@
+# This script was written before I loved comments, and is
+# therefore magic to me now. Please don't ask about it.
+
 import os
 import pyperclip
 import re

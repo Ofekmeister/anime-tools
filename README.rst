@@ -1,6 +1,6 @@
 With Python installed do:
 
-pip install https://github.com/Ofekmeister/anime-tools/master.zip
+pip install https://github.com/Ofekmeister/anime-tools/archive/master.zip
 
 
 subshift
