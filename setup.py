@@ -13,9 +13,8 @@ setup(
     author_email='ofekmeister@gmail.com',
     maintainer='Ofek Lev',
     maintainer_email='ofekmeister@gmail.com',
-    url='https://github.com/Ofekmeister/pymedia',
+    url='https://github.com/ofek/anime-tools',
     license='MIT',
-    platforms=None,
 
     classifiers=[
         'Development Status :: 4 - Beta',
@@ -34,8 +33,8 @@ setup(
     packages=find_packages(),
     entry_points={
         'console_scripts': [
-            'subshift = anime-tools.subshift:main',
-            'epirename = anime-tools.subrename:main',
+            'subshift = src.subshift:main',
+            'epirename = src.subrename:main',
         ],
     },
 )
