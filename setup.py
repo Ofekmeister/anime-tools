@@ -33,8 +33,8 @@ setup(
     packages=find_packages(),
     entry_points={
         'console_scripts': [
-            'subshift = src.subshift:main',
-            'epirename = src.subrename:main',
+            'subshift = anitools.subshift:main',
+            'epirename = anitools.epirename:main',
         ],
     },
 )

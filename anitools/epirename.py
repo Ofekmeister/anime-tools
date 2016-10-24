@@ -2,8 +2,10 @@
 # therefore magic to me now. Please don't ask about it.
 
 import os
-import pyperclip
 import re
+
+import pyperclip
+
 from .utils import get_input
 
 ABSOLUTE = re.compile(r"(?:^|(?<=[^a-z0-9]))(?:ep?(?<=e|p)[^a-z0-9]?)?([0-9]+)x?([0-9]*)(?:(?=[^a-z0-9])|$)", re.I)
@@ -102,3 +104,6 @@ def main():
                             if choice == 'y':
                                 os.rename(file, new_name)
                                 break
+
+if __name__ == '__main__':
+    main()

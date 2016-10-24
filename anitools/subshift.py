@@ -1,7 +1,9 @@
 import argparse
-import chardet
 import re
 import sys
+
+import chardet
+
 from .utils import file_open, get_input, remove_bom
 
 
@@ -206,3 +208,6 @@ def main():
         shifter.change_fps(float(new_fps) / float(original_fps))
 
     shifter.apply_changes(input_sub, output_sub)
+
+if __name__ == '__main__':
+    main()

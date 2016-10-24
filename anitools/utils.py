@@ -1,6 +1,7 @@
 import codecs
 import re
 import sys
+from io import open as file_open
 
 input = input if sys.version[0] >= '3' else raw_input
 
